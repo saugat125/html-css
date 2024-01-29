@@ -1,0 +1,42 @@
+
+
+h1 {
+  font-size: 95px;
+}
+
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h3 {
+  font-family: 'Inter';
+  color: #319b3a;
+  text-align: center;
+  font-weight: 400;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: 'Inter';
+}
+
+.custom-container {
+  max-width: 1920px;
+  padding: 70px 170px;
+  margin: auto;
+}
+
+span{
+  font-weight: 700;
+}
+

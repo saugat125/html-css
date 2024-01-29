@@ -1,0 +1,313 @@
+/* 1400 mediumlaptop 1024 tablet mobile */
+@media all and (max-width: 1199px) {
+  .custom-container {
+    padding: 50px 100px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .product .product_img {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .benefits .benefit_main {
+    gap: 50px;
+  }
+  .benefits .benefit_main img {
+    width: 450px;
+    height: 250px;
+  }
+  .greenhouse .green_card_flex img {
+    width: 250px;
+    height: 200px;
+  }
+  .greenhouse .green_card_flex .card_container {
+    width: 90%;
+  }
+  .greenhouse .green_card_flex .card_container p {
+    font-size: 14px;
+  }
+  .organic .organic_main {
+    gap: 40px;
+  }
+  .organic .organic_main img {
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+  }
+  .organic .organic_main p {
+    margin-top: 50px;
+  }
+  .recipe .recipe_card_flex img {
+    height: 200px;
+  }
+  .inspiration .ins_text h2 {
+    margin-bottom: 20px;
+  }
+  .inspiration .ins_flex {
+    gap: 120px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .inspiration .ins_flex .ins_images {
+    margin-right: 50px;
+  }
+}
+@media all and (max-width: 991px) {
+  .custom-container {
+    padding: 50px 50px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  nav .navigation a {
+    font-size: 14px;
+  }
+  .maindiv .main {
+    background-size: auto;
+  }
+  .maindiv .text {
+    margin-top: 120px;
+  }
+  .maindiv .text p {
+    font-size: 14px;
+    margin-left: 0;
+  }
+  .maindiv .text .main_btn {
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 40px;
+  }
+  .quality .quality_flex {
+    padding: 0;
+  }
+  .benefits .benefits_text h2 {
+    font-size: 30px;
+  }
+  .benefits .benefit_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits .benefit_main ul {
+    margin-top: 0;
+  }
+  .benefits .benefit_main img {
+    margin-top: 30px;
+  }
+  .greenhouse .green_card_flex {
+    margin-top: 20px;
+  }
+  .greenhouse .green_card_flex img {
+    width: 200px;
+    height: 170px;
+  }
+  .greenhouse .green_card_flex .card_container {
+    width: 90%;
+  }
+  .greenhouse .green_card_flex .card_container p {
+    font-size: 12px;
+  }
+  .organic .organic_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .organic .organic_main img {
+    margin-top: 30px;
+  }
+  .organic .organic_main p {
+    margin-top: 0;
+  }
+  .team .custom-container {
+    padding-top: 0;
+  }
+  .team .team_card {
+    gap: 0;
+  }
+  .team .team_card img {
+    width: 220px;
+    height: 250px;
+  }
+  .recipe .recipe_card_flex {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-column-gap: 40px;
+  }
+  .inspiration .ins_flex .ins_images .ins_rec {
+    width: 320px;
+    height: 300px;
+  }
+  .inspiration .ins_flex .ins_images .ins_pic {
+    width: 320px;
+    height: 370px;
+  }
+  .contact .custom-container {
+    padding-top: 0;
+  }
+  .contact .contact_flex {
+    gap: 0;
+  }
+  .contact .contact_flex .contact_img img {
+    width: 400px;
+  }
+}
+@media all and (max-width: 767px) {
+  .custom-container {
+    padding: 30px 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  nav {
+    display: none;
+  }
+  .product {
+    text-align: justify;
+  }
+  .product .custom-container {
+    padding: 30px 0;
+  }
+  .product .product_text h2 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .product p {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+  }
+  .product .product_img {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .product .product_img img {
+    margin-right: 15px;
+  }
+  .quality .custom-container {
+    padding-top: 10px;
+  }
+  .quality .quality_flex {
+    flex-direction: column;
+  }
+  .quality .quality_img {
+    width: 100%;
+  }
+  .benefits .custom-container {
+    padding-bottom: 0;
+  }
+  .benefits .benefits_text h2 {
+    font-size: 24px;
+  }
+  .benefits .benefit_main {
+    gap: 30px;
+  }
+  .benefits .benefit_main img {
+    width: 100%;
+    height: 200px;
+  }
+  .greenhouse .greenhouse_text p {
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .greenhouse .green_card_flex {
+    flex-direction: column;
+  }
+  .greenhouse .green_card_flex p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .greenhouse .green_card_flex .card1 img, .greenhouse .green_card_flex .card2 img, .greenhouse .green_card_flex .card3 img {
+    width: 270px;
+    height: 200px;
+  }
+  .organic .organic_main {
+    gap: 30px;
+  }
+  .organic .organic_main img {
+    width: 100%;
+    height: 200px;
+  }
+  .organic .organic_main p {
+    margin-left: 10px;
+  }
+  .team .team_text p {
+    width: 100%;
+  }
+  .team .team_card {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .recipe .recipe_text h2 {
+    line-height: normal;
+    width: 100%;
+  }
+  .recipe .recipe_text p {
+    width: 100%;
+    text-align: justify;
+  }
+  .recipe .recipe_card_flex {
+    grid-template-columns: none;
+  }
+  .inspiration .ins_flex {
+    gap: 60px;
+  }
+  .inspiration .ins_flex .ins_images {
+    margin: auto;
+  }
+  .inspiration .ins_flex .ins_images .ins_rec {
+    width: 200px;
+    height: 200px;
+  }
+  .inspiration .ins_flex .ins_images .ins_pic {
+    width: 200px;
+    height: 250px;
+  }
+  .contact .contact_text h2 {
+    margin-bottom: 20px;
+  }
+  .contact .contact_flex {
+    flex-direction: column-reverse;
+  }
+  .contact .contact_flex .contact_img img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 30px;
+  }
+  .contact .contact_flex .form {
+    width: 100%;
+  }
+  footer a {
+    font-size: 12px;
+  }
+  footer .footer_flex {
+    flex-direction: column;
+  }
+  footer .footer_flex .left_col {
+    width: 100%;
+  }
+  footer .footer_flex .right_col {
+    padding: 50px 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */
